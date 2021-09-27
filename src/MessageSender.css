@@ -5,8 +5,14 @@
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
-    width: 100%;
+    width: 90%;
 }
+@media only screen and (max-width: 1026px) {
+    .messageSender{
+        margin-top: 10px;
+    }
+  }
+  
 .messageSender_top {
     display: flex;
     border-bottom: 1px solid #eff2f5;
@@ -16,6 +22,11 @@
     flex: 1;
     display: flex;
 }
+@media only screen and (max-width: 1026px) {
+    .messageSender_top > form {
+        display: block;
+    }
+  }
 .messageSender_top > form > input{
     outline-width: 0;
     border: none;
@@ -24,6 +35,18 @@
     border-radius: 999px;
     background-color: #eff2f5;
 }
+@media only screen and (max-width: 1026px) {
+    .messageSender_top > form > input {
+        margin-top: 5px;
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 1026px) {
+    .messageSender_avatar{
+        margin-top: 10px;
+    }
+  }
+  
 .messageSender_top > form > button{
     display: none;
 }
@@ -51,3 +74,8 @@
     background-color: #eff2f5;
     border-radius: 20px;
 }
+@media only screen and (max-width: 1026px) {
+    .messageSender_option > h3 {
+        display: none;
+    }
+  }

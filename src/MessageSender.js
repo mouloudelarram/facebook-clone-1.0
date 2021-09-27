@@ -32,10 +32,10 @@ function MessageSender() {
     return (
         <div className="messageSender">
             <div className="messageSender_top">
-                <Avatar src={user.photoURL} />
+                <Avatar className="messageSender_avatar" src={user.photoURL} />
                 <form>
                     <input value={input} onChange={(e) => setInput(e.target.value)} className="messageSender_input" type="text" placeholder={`what's on your mind  ${user.displayName} ?`} />
-                    <input value={imageUrl} onChange={(e) => setImageUrl(e.target.value)} placeholder="image URL (Optional)" type="text" />
+                    <input  value={imageUrl} onChange={(e) => setImageUrl(e.target.value)} placeholder="image URL (Optional)" type="text" />
                     <button onClick={handleSubmit} type="submit">
                         Hidden submit
                     </button>

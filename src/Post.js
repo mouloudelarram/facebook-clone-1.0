@@ -34,25 +34,28 @@ function Post({profilePic, image, username, timestamp, message}) {
                 </>
             )}
             
-
-            <div className="post_options">
-                <div className="post_option">
-                    <ThumbUpIcon/>
-                    <p>Like</p>
+            <center>
+                <div className="post_options">
+                    <div className="post_option">
+                        <ThumbUpIcon/>
+                        <p >Like</p>
+                    </div>
+                    <div className="post_option">
+                        <ChatBubbleOutlineIcon />
+                        <p>Comment</p>
+                    </div>
+                    <div className="post_option">
+                        <NearMeIcon />
+                        <p>Share</p>
+                    </div>
+                    <div className="post_option">
+                        <div className="post_option_2">
+                            <AccountCircleIcon />
+                            <ExpandMoreIcon />
+                        </div>
+                    </div>
                 </div>
-                <div className="post_option">
-                    <ChatBubbleOutlineIcon />
-                    <p>Comment</p>
-                </div>
-                <div className="post_option">
-                    <NearMeIcon />
-                    <p>Share</p>
-                </div>
-                <div className="post_option">
-                    <AccountCircleIcon />
-                    <ExpandMoreIcon />
-                </div>
-            </div>
+            </center>
         </div>
     )
 }

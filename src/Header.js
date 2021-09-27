@@ -46,18 +46,20 @@ function Header() {
                     <Avatar src={user.photoURL} />
                     <h4> {user.displayName} </h4>
                 </div>
-                <IconButton>
-                    <AddIcon />
-                </IconButton>
-                <IconButton>
-                    <ForumIcon />
-                </IconButton>
-                <IconButton>
-                    <NotificationsActiveIcon />
-                </IconButton>
-                <IconButton>
-                    <ExpandMoreIcon />
-                </IconButton>
+                <div className="header_right_button">
+                    <IconButton>
+                        <AddIcon />
+                    </IconButton>
+                    <IconButton>
+                        <ForumIcon />
+                    </IconButton>
+                    <IconButton>
+                        <NotificationsActiveIcon />
+                    </IconButton>
+                    <IconButton>
+                        <ExpandMoreIcon />
+                    </IconButton>
+                </div>
             </div>
         </div>
     )

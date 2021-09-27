@@ -12,6 +12,24 @@
     transition: transform 100ms ease-in;
     cursor: pointer;
 }
+@media only screen and (max-width: 1026px) {
+    .story {
+        display: flex;
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 40px;
+        box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+        border-radius: 100%;
+        margin-right: 0px;
+        margin-top: 5px;
+        margin: 5px;
+        transition: transform 100ms ease-in;
+        cursor: pointer;
+    }
+  }
 .story:hover {
     transform: scale(1.07);
 }
@@ -26,3 +44,14 @@
     left: 20px;
     color: white;
 }
+@media only screen and (max-width: 1026px) {
+    .story_avatar{
+        margin: 0px;
+        border: 2px solid #2e81f4;
+    }}
+
+@media only screen and (max-width: 1026px) {
+    .story_titre{
+        display: none;
+    }}
+

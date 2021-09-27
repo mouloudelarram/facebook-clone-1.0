@@ -5,7 +5,7 @@ function Story({image, profileSrc, title}) {
     return (
         <div style={{ backgroundImage: `url(${image})`}} className="story">
             <Avatar className="story_avatar" src={profileSrc} />
-            <h4>{title}</h4>
+            <h4 className="story_titre">{title}</h4>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 .post {
-    width: 100%;
+    width: 90%;
     margin-top: 15px;
     border-radius: 15px;
     background-color: #fff;
@@ -43,6 +43,16 @@
     padding: 5px;
     flex: 1;
 }
+@media only screen and (max-width: 1026px) {
+    .post_options{
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-left: 10%;
+        right: 0px;
+
+    }
+  }
 .post_option > p {
     margin-left: 10px;
 }
@@ -50,3 +60,8 @@
     background-color: #eff2f5;
     border-radius: 10px;
 }
+@media only screen and (max-width: 1026px) {
+    .post_option_2 {
+        display: none;
+    }
+  }

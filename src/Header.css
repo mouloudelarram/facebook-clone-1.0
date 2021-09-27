@@ -7,6 +7,7 @@
     z-index: 100;
     box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
+
 .header_left {
     display: flex;
     align-items: center;
@@ -70,3 +71,30 @@
 .header_option_active  {
     border-bottom: 4px solid #2e81f4;
 }
+@media only screen and (max-width: 1026px) {
+    .header_center {
+        display: none;
+    }
+  }
+@media only screen and (max-width: 1026px) {
+    .header_input > input {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 1026px) {
+    .header_info{
+        background-color: none;
+        margin-left: 0%;
+    }
+  }
+   @media only screen and (max-width: 1026px) {
+    .header_right_button{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 1026px) {
+    .header{
+        justify-content: space-between;
+    }
+  }
